@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+h1 span {
+    color: red;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 4.5rem;
+}
+
+a {
+    color: white;
+    background-color: rgb(0, 0, 255);
+    text-decoration: none;
+
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+
+#bg-image {
+    background-image: url(https://images.pexels.com/photos/858508/pexels-photo-858508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    inset: 0;
+
+    opacity: 0.3;
+    z-index: -1;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 255, 0.712);
+}
+
+@media(width < 40rem) {
+    html {
+        font-size: 70%;
+    }
+}
+
+h1, p, a {
+    animation: teste 1s backwards;
+}
+
+h1 {
+    animation-delay: 0.5s;
+}
+
+p {
+    animation-delay: 0.9s;
+}
+
+a {
+    animation-delay: 1.2s;
+}
+
+@keyframes teste {
+    0% {
+        opacity: 0;
+    }
+}
