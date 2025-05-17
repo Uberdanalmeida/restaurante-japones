@@ -1,3 +1,5 @@
+![Projeto comida-japonesa](imagem/comida-japonesa.jpeg)
+
 # Projeto de Página de Comida Japonesa
 
 Este projeto consiste em uma página web simples com o objetivo de apresentar um serviço de comida japonesa e direcionar os usuários a fazerem seus pedidos através do WhatsApp.
